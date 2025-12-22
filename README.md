@@ -1,8 +1,10 @@
 # Webcontrol
 **Complete easy to use self-hosted standalone solution built on top of ebusd to replace Vaillant remote control system (MultiMATIC, SensoAPP,  MyVaillant, etc.)**
 
-# Features:
+## Features
 • Independent solution (You are your own "cloud").
+
+• No built in trackers / telemetry.
 
 • Intuitive lighweight interface with detailed explanation for the settings and parameters changed.
 
@@ -10,7 +12,7 @@
 
 • Any system configuration **with supported regulator** will work, no matter what additional equipment is used as all control is performed through the regulator.
 
-• Display and explanantion of status and error codes for supported families of heat generators (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
+• Display and explanantion of the status and error codes for supported families of the heat generators with ebus interface (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
 
 • Support for the cascade of heat generators (for heat generators in cascade the following parameters are available: status code, temperature of the supply and return lines, error code. Sending notification in case of heat generators failure).
 
