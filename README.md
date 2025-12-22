@@ -30,7 +30,7 @@
 
 • Automatic date and time syncronization of the regulator.
 
-• Ability to control system behaviour using external contact (requires a special USB device). Currently only one function implemented.
+• Ability to control system behaviour using external contact (requires a special USB device). Currently only one function implemented for VRC700 regulator.
 
 • Supports both wired (Ethernet) and WiFi connection.
 
