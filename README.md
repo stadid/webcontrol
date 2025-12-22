@@ -1,5 +1,8 @@
 # Webcontrol
 **Complete easy to use self-hosted standalone solution built on top of ebusd to replace Vaillant remote control system (MultiMATIC, SensoAPP,  MyVaillant, etc.)**
+
+[See Webcontrol Wiki for the information how to download, install and setup](https://github.com/stadid/webcontrol/wiki)
+
 ![What is required to run Webcontrol](https://github.com/stadid/webcontrol/blob/main/webcontrol.jpg?raw=true)
 ## Features
 • Independent solution (You are your own "cloud").
@@ -37,3 +40,12 @@
 • Implementation in the form of a lightweight web interface allows access from any device with a web browser (phone, tablet, PC, even smart-watch).
 
 • Program update via Internet or via downloadable zip package.
+
+## Drawbacks
+• Limited number of supported controllers (VRC700, VRC720). *Other controllers (for example, VRT380) could be added if significant user demand is shown.* No support for systems where controllers are not installed.
+
+• Focus on heating. **Currently** no inerface for managing cooling / ventilation (some parameters, however, could be set using direct set mode). *Could be added if user interst is shown.*
+
+• No protection for Web interface. System should be used only in controlled enviroment (LAN) with external access only via VPN.
+
+• No integration with smart home systems. Acts as a pure standalone solution. 
