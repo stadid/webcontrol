@@ -13,7 +13,7 @@
 
 • Depending on the model and generation of the controller (**currently supported all generations of VRC700 and VRC720**), the program supports up to 9 heating circuits and up to 9 zones, plus management of the time windows, desired temperatures and special operating modes.
 
-• Any system configuration **with supported controller** will work, no matter what additional equipment is used as all control is performed through the controller.
+• Any system configuration **with supported controller** will work, no matter what additional equipment is used as all management is performed through the controller.
 
 • Display and explanantion of the status and error codes for supported families of the heat generators with ebus interface (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
 
