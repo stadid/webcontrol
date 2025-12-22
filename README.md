@@ -1,6 +1,6 @@
 # Webcontrol
 **Complete easy to use self-hosted standalone solution built on top of ebusd to replace Vaillant remote control system (MultiMATIC, SensoAPP,  MyVaillant, etc.)**
-
+![What is required to run Webcontrol](https://github.com/stadid/webcontrol/blob/main/webcontrol.jpg?raw=true)
 ## Features
 • Independent solution (You are your own "cloud").
 
