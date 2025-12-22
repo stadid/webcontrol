@@ -8,9 +8,9 @@
 
 • Intuitive (to the author, of course) lighweight Web interface with detailed explanation for the settings and parameters changed.
 
-• Depending on the model and generation of the regulator (**currently supported all generations of VRC700 and VRC720**), the program supports up to 9 heating circuits and up to 9 heating zones, management of the time windows, desired temperatures and special operating modes.
+• Depending on the model and generation of the controller (**currently supported all generations of VRC700 and VRC720**), the program supports up to 9 heating circuits and up to 9 heating zones, management of the time windows, desired temperatures and special operating modes.
 
-• Any system configuration **with supported regulator** will work, no matter what additional equipment is used as all control is performed through the regulator.
+• Any system configuration **with supported controller** will work, no matter what additional equipment is used as all control is performed through the controller.
 
 • Display and explanantion of the status and error codes for supported families of the heat generators with ebus interface (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
 
@@ -22,15 +22,15 @@
 
 • Built-in L2TP/IPsec VPN client for remote access to the program's web interface.
 
-• The ability to change all available settings of the regulator and heat generator (experimental function for experienced users).
+• The ability to change all available settings of the controller and heat generator (experimental function for experienced users).
 
-• Export of the available regulator settings in TXT file.
+• Export of the available controller settings into TXT file.
 
 • Automatic change of the heat curve for selected heating circuit(s) depending on the outside temperature (experimental function for experienced users).
 
-• Automatic date and time syncronization of the regulator.
+• Automatic date and time syncronization of the controller.
 
-• Ability to control system behaviour using external contact (requires a special USB device). Currently only one function implemented for VRC700 regulator.
+• Ability to control system behaviour using external contact (requires a special USB device). Currently only one function implemented for VRC700 controller.
 
 • Supports both wired (Ethernet) and WiFi connection.
 
