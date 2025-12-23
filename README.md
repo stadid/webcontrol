@@ -56,4 +56,4 @@
 
 • No integration with smart home systems. Acts as a pure standalone solution. 
 
-• No virualization support. Should be run on a real "hardware". 
+• No virtualization support. Should be run on a real "hardware" only. 
