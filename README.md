@@ -19,7 +19,7 @@
 
 • Any heating system configuration **with supported controller** will work, no matter what additional equipment is used as all management is performed through the controller (the same way as it's done by manufacturer).
 
-• Display and explanantion of the status and error codes for supported families of the heat generators with ebus interface (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
+• Display and explanation of the status and error codes for supported families of the heat generators with ebus interface (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
 
 • Support for the cascade of heat generators (for heat generators in cascade the following parameters are available: status code, temperature of the supply and return lines, error code. Sending notification in case of heat generators failure).
 
