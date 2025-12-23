@@ -13,7 +13,7 @@
 
 • Intuitive (to the author, of course) lighweight Web interface with detailed explanation for the settings and parameters changed.
 
-• Always actual data as parameters are read from the system at the time of corresponding interface page is loaded.
+• Always actual data as parameters are read from the system "on the fly" at the time of corresponding interface page is loaded.
 
 • Depending on the model and generation of the controller (**currently supported all generations of VRC700 and VRC720**), the program supports up to 9 heating circuits and up to 9 zones, plus management of the time windows, desired temperatures and special operating modes.
 
