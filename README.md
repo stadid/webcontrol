@@ -9,7 +9,11 @@
 
 • No built in trackers / telemetry.
 
+• Easy setup. The only thing you have to do is to select what Zones and Circuits you want to display. 
+
 • Intuitive (to the author, of course) lighweight Web interface with detailed explanation for the settings and parameters changed.
+
+• Always actual data as parameters are read from the system at the time of corresponding interface page is loaded.
 
 • Depending on the model and generation of the controller (**currently supported all generations of VRC700 and VRC720**), the program supports up to 9 heating circuits and up to 9 zones, plus management of the time windows, desired temperatures and special operating modes.
 
@@ -47,5 +51,7 @@
 • Focus on heating. **Currently** no inerface pages for managing cooling / ventilation (some parameters, however, could be set using direct set mode). *Could be added if user interst is shown.*
 
 • No protection for Web interface. System should be used only in controlled enviroment (LAN) with external access only via VPN.
+
+• No fuel consumption / energy statistics data interface pages. *Could be added in case of user demand.*
 
 • No integration with smart home systems. Acts as a pure standalone solution. 
