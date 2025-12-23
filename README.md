@@ -33,7 +33,7 @@
 
 • Export of the available controller settings into TXT file.
 
-• Automatic change of the heat curve for selected heating circuit(s) depending on the outside temperature (experimental function for experienced users).
+• Automatic change of the heat curve for selected heating circuit(s) depending on the outdoor temperature (experimental function for experienced users).
 
 • Automatic date and time syncronization of the controller.
 
