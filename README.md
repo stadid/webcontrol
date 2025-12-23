@@ -55,3 +55,5 @@
 • No fuel consumption / energy statistics data interface pages. *Could be added in case of user demand.*
 
 • No integration with smart home systems. Acts as a pure standalone solution. 
+
+• No virualization support. Should be run on a real "hardware". 
