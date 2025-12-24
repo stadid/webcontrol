@@ -50,7 +50,7 @@
 ## Drawbacks
 • Limited number of supported controllers (VRC700, VRC720). *Other controllers (for example, VRT380) could be added if significant user demand is shown.* No support for systems where controllers are not installed.
 
-• Focus on heating. **Currently** no inerface pages for managing cooling / ventilation (some parameters, however, could be set using direct set mode). *Could be added if user interst is shown.*
+• Focus on heating. **Currently** no interface pages for managing cooling / ventilation (some parameters, however, could be set using direct set mode). *Could be added if user interst is shown.*
 
 • No protection for Web interface. System should be used only in controlled enviroment (LAN) with external access only via VPN.
 
