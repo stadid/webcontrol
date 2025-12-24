@@ -39,7 +39,7 @@
 
 • Automatic change of the heat curve for selected heating circuit(s) depending on the outdoor temperature (experimental function for experienced users).
 
-• Automatic date and time syncronization of the controller.
+• Automatic date and time correction of the controller using internet-syncronized clock in the mini-pc.
 
 • Ability to control system behaviour using external contact (requires a special USB device). Currently only one function implemented for VRC700 controller.
 
