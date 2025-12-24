@@ -29,6 +29,8 @@
 
 • Multiple user accounts with several permission levels: read only, normal user, specialist.
 
+• Saving and restoration of the program settings through the configuration file.
+
 • Built-in L2TP/IPsec VPN client for remote access to the program's web interface.
 
 • The ability to change all available settings of the controller and heat generator (experimental function for experienced users).
