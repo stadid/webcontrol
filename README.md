@@ -3,7 +3,7 @@
 
 ***
 
-[See Webcontrol Wiki for the program description and information how to download, install and setup](https://github.com/stadid/webcontrol/wiki)
+[See Webcontrol Wiki for the program description and information on how to download, install and setup](https://github.com/stadid/webcontrol/wiki)
 
 ***
 
