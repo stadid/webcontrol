@@ -19,7 +19,7 @@
 
 • Always actual data as parameters are read from the system "on the fly" at the time of corresponding interface page is loaded.
 
-• Depending on the model and generation of the controller (**currently supported all generations of VRC700 and VRC720**), the program supports up to 9 circuits and up to 9 zones, plus management of the time windows, desired temperatures and special operating modes.
+• Depending on the model and generation of the controller (**currently supported all wired generations of VRC700 and VRC720**), the program supports up to 9 circuits and up to 9 zones, plus management of the time windows, desired temperatures and special operating modes.
 
 • Any heating system configuration **with supported controller** will work, no matter what additional equipment is used as all management is performed through the controller (the same way as it's done by manufacturer).
 
@@ -64,4 +64,4 @@
 
 • No integration with smart home systems. Acts as a pure standalone solution. 
 
-• No virtualization support. Should be run on a real "hardware" only. 
+• No virtualization support. Should be run on a real hardware only. 
