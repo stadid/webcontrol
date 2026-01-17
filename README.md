@@ -37,7 +37,7 @@
 
 • Built-in L2TP/IPsec (PSK) VPN client for remote access to the program's web interface.
 
-• Ability to change all available settings of the controller and heat generator (experimental function for experienced users).
+• Allows changing all available (in ebusd configuration) settings for the controller and heat generator (experimental function for advanced users).
 
 • Export of available controller settings to a TXT file.
 
@@ -45,7 +45,7 @@
 
 • Automatic date/time correction of the controller clock using an internet-synchronized clock in the Webcontrol mini-PC.
 
-• Ability to control system behavior using an external contact (requires a special USB GPIO device). Currently only one function is implemented for the VRC700 controller.
+• Control the system via an external contact (requires a special USB GPIO device). Currently only one function is implemented for the VRC700 controller.
 
 • Supports both wired (Ethernet) and Wi-Fi connections.
 
