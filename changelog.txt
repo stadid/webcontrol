@@ -1,0 +1,300 @@
+Webcontrol by Stadid
+Complete easy to use self-hosted standalone solution built on top of ebusd to replace Vaillant remote control system (MultiMATIC, SensoAPP, MyVaillant, etc.)
+
+CHANGELOG
+
+Notes:
+(IMAGE) - update in the form of a full system install image
+(CODE) - update via a ZIP file, installed via the program’s web interface or automatically via the Internet
+
++ functionality added
+* functionality changed
+
+
+
+Version 2023.08.08 (IMAGE)
+=========================
+First publicly available version.
+Webcontrol development began in December 2022.
+By the end of December 2022 an EBUS adapter was built and the first lines of code were written.
+By March 2023 a working version with sufficient functionality was ready and beta-test by external user started.
+In Summer 2023, along with improvements to the software functionality, an automated installation procedure was developed, and in August 2023 the first public version was released.
+
+
+
+Version 2023.09.06 (IMAGE)
+=========================
++ Added control of the controller modes via Telegram bot:
+VRC700 "system off,"
+VRC700 "vacation (away)" with set temperature
+A short reference to available commands and Telegram bot operation is posted on the Telegram interaction settings page.
+CONTROL THROUGH BOT (as well as notifications) WORKS WITHOUT VPN CONNECTION!
+(i.e., simply connect the device to a LAN with Internet access)
+
++ Added Telegram users permissins management for controlling the system via the bot
+
+* by default ebusd log file is disabled
+
++ Added the ability to delete old ebusd logs
+
+* set limit on the maximum number of user accounts (web interface)
+
+* translated names of some time zones
+
+* minor UI improvements (text corrections, added links to related interface pages)
+
+[!] WARNING! Due to new features, version 2023.09.06 is not compatible with 2023.08.08 settings.
+If reinstalling you have to reconfigure everything!
+
+
+
+Version 2023.09.28 (IMAGE)
+=========================
++ Wi-Fi support added
+(Supports WPA/WPA2 encrypted networks; connecting to hidden Wi-Fi networks is not supported)
+
++ Telegram bot now includes a "help" command to get list of support commands with brief description of commands directly via the bot.
+
+* minor UI improvements
+
+* following the interface changes, PDF instructions file for Telegram bot registration and connection to the system also updated.
+
+[!] WARNING! 2023.09.28 is SETTINGS-COMPATIBLE (db file) with 2023.09.06 but NOT with 2023.08.08.
+
+
+
+Version 2023.10.17 (IMAGE)
+=========================
++ Added check for the presence/availability of a Wi-Fi adapter before showing the Wi-Fi connection setup page
+
++ OS-level changes allow using the Wi-Fi adapter on different hardware revisions of Beelink T4-PRO mini-PC
+
+* minor UI improvements
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2023.11.15 (IMAGE)
+=========================
++ Added the ability to update the program by uploading an update file in the web interface ("Settings" -> "Program Update").
+
++ Implemented procedure for emergency code restoration to the original state (as of the time of software image creation).
+(these changes required refactoring of some code and the program’s internal directories)
+
++ added Telegram notification to users if one of the Telegram users changes system settings via bot command
+(option enabled on Settings -> Telegram interaction settings, disabled by default).
+
++ added restoration of time zone settings during settings restoration (if time zone settings had been changed previously)
+
++ added "Developer tools" settings section with one tool: enable/disable SSH access to the Webcontrol device
+
+* fixed a bug causing incorrect display of the end time for the current time window for the 2nd and 3rd heating zones as well as for the DHW zone
+
+* minor UI improvements
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2023.11.20 (CODE)
+=========================
++ In the domestic hot water management subsection (Status page) added a button to enable the [1x cylinder load] mode
+
++ added check if controller assigned to a specific zone (if not assigned, a corresponding message is shown instead of 0.0 temperature)
+
++ VRC700: on the Status page, display notifications about planned global controller modes: "Days out of the house" and "Days I am home"
+
+* significantly expanded the Telegram bot "status" command output to match the web interface "Status" page
+
+* typos fixed and minor UI improvements
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+Version 2023.11.25 (CODE)
+=========================
+* Wi-Fi connection procedure updated for rare cases when connected to Wi-Fi is already successful but another network is needed
+
++ added periodic check of Wi-Fi connection state and its automatic restoration  
+
++ Developer Tools: added a counter for days since the mini-computer with Webcontrol was powered on
+
+* VRC700: adjusted criteria for showing global modes when both active and scheduled
+
+* VRC700: display information about scheduled global modes during other global modes (except "system off")
+
+* fixed ebusd configuration update procedure (do not confuse with code update procedure)
+
+* minor UI improvements
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2023.11.26 (IMAGE+CODE)
+=========================
+IMAGE: * major OS-level changes to reduce eMMC wear to extend life and increase reliability:
+IMAGE: + all Apache logs redirected to /dev/null/
+IMAGE: + rsyslog and systemd-journald logging to syslog disabled (no system logs written)
+IMAGE: + main ext4 partition mounted with noatime and nodiratime
+IMAGE: + vm.swappiness set to 0 (swap not used as RAM suffices)
+IMAGE: + IO scheduler disabled for all mmc* devices
+
+IMAGE: * updated ebusd configuration to support reading/writing time windows for the 3rd heating zone
+
+IMAGE+CODE: + on the "About" page added a link to the Boosty
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2023.12.08 (CODE)
+=========================
++ added Telegram bot command "parameters" that outputs system parameters similar to those shown on the web interface’s "Parameters" page.
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2023.12.12 (CODE)
+=========================
++ on the "Status" page – in the DHW subsection added display of Legionella protection function settings (requires corresponding EBUSD configuration update)
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2024.01.19 (CODE)
+=========================
++ in the "Developer tools" section added MAC addresses display for network adapters (Ethernet, Wi-Fi)
+
+* VRC700: updated code to support 5 zones and 5 circuits (requires corresponding EBUSD configuration)
+
++ bot response to the "Status" command now shows Legionella protection settings (requires EBUSD configuration)
+
++ added sending system parameters to Narodmon service (up to 5 parameters)
+
+* added translations for several system parameters and templates for Narodmon parameters
+
++ updated database of heat generator part numbers used for automatic equipment detection (added models atmoTec and turboTec 3rd generation)
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2024.08.15 (IMAGE)
+=========================
+* fully refactored ALL program code to support licensing mechanism (split into a BASIC and FULL version)
+BASIC version limits to one zone/circuit and one user-defined parameter
+
++ added display of relative air humidity for the controller in VRC700 (only for the zone to which the VRC700 is assigned)
+
++ added support for the VRC720 family controllers:
++ VRC720, VRC720/2, VRC720/3
+
+added support for ecoTEC plus heaters:
+art. 0010024664, model VU 20CS/1-5 (N-INT4)
+art. 0010024665, model VU 25CS/1-5 (N-INT4)
+art. 0010024666, model VU 30CS/1-5 (N-INT4)
+art. 0010024667, model VU 35CS/1-5 (N-INT4)
+art. 0010024668, model VUW 26CS/1-5 (N-INT4)
+art. 0010024669, model VUW 32CS/1-5 (N-INT4)
+art. 0010024670, model VUW 36CS/1-5 (N-INT4)
+
+* updated VRC700 code and built-in ebusd configuration to support full zones/circuits for the corresponding generation:
++ VRC700 (first generation) – 2 zones/circuits
++ VRC700/2 – 3 zones/circuits
++ VRC700/4 – 3 zones/circuits
++ VRC700/5 – 9 zones/circuits
++ VRC700/6 – 9 zones/circuits
+
++ Telegram bot commands "VPN" and its variant "VPN ON".
+Bot command "VPN" shows VPN status; "VPN ON" enables the VPN connection. Useful if VPN was manually disabled and access to the device is lost
+
++ added Telegram bot command "address" (or "addresses")
+Shows all IP addresses (Ethernet, Wi-Fi, VPN) assigned to the mini-PC with Webcontrol
+
++ Developer Tools now include periodic actions interval adjustment (this parameter defines how often actions that must be performed continuously will run: for example, system error checks, Telegram bot command processing, Narodmon reporting, etc.)
+previously it was every 10 minutes. In the current version reduced to every 5 minutes.
+
++ in the diagnostics section added e-bus adapter connection status and bus status
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2024.11.10 (IMAGE)
+=========================
+* OS-level changes to potentially improve system stability
+
+* For VRC700 improved interface for managing time windows, DHW preparation, and hot water circulation
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2025.02.01 (IMAGE + CODE)
+=========================
++ Added setting to display room temperature and humidity measured by the controller on the "Status" page (independently of zone assignment of the controller)
+This is necessary for systems where controller is not assigned to any zone.
+
++ Added setting to make the "Parameters" page default. When enabled, accessing the program opens the "Parameters" page instead of "Status."
+
++ Added program update via Internet.
+
+* Increased number of displayed heat-generator parameters on the "Parameters" page. In addition to the generator status code, temperatures of supply and return lines are shown (depends on heat generator model and firmware version).
+
++ Added support for heat generators in cascade — now the following parameters are displayed (status code, supply/return temperatures, and error code in case of a fault). If a generator faults, a notification is sent.
+
++ Telegram bot command "report"
+The "report" command executes the "status" and "parameters" commands and returns a combined output from both.
+
+* Improved time/date correction procedure for the controller — time/date are no longer corrected at 00:00 and 12:00 to avoid affecting cascade operation during switching.
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+
+
+
+Version 2025.03.05 (CODE)
+=========================
++ VRC720 setting added to apply a single temperature for all configured time windows for all days of the week.
+
+* VRC720 in the editing of the time windows interface added an option to copy the configured time windows for the day to all days of the week.
+
+* On the "Parameters" page for circuit parameters added links to change current parameter values.
+
++ Experimental feature: setting the heating curve based on outdoor temperature.
+
+* minor interface tweaks and improvements.
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
+
+Version 2025.03.31 (CODE)
+=========================
+* Minor UI changes, translation of several controller parameters.
+
+* IMPORTANT! Now resetting program settings removes license information (license keys).
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
+
+Version 2025.05.15 (CODE)
+=========================
+* In the web interface, the system pressure now always showning with a decimal (e.g., 1.0 bar, not 1 bar).
+
++ VRC700 added translation and description for the parameter "Outdoor temperature correction."
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
+
+Version 2025.05.30 (CODE)
+=========================
++ Fixed an issue when checking for program updates online (the error was due to changes in the data exchange format on the side of server where update files are located).
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
