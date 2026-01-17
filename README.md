@@ -13,11 +13,11 @@
 
 • No built in trackers / telemetry.
 
-• Easy setup. The only thing you have to do is to select what Zones and Circuits you want to display. 
+• Easy setup: simply select which Zones and Circuits you want to display. 
 
-• Intuitive (to the author, of course) lighweight Web interface with detailed explanation for the settings and parameters changed.
+• Intuitive lightweight web interface (to the author’s taste) with detailed explanations for settings and parameters changed.
 
-• Always actual data as parameters are read from the system "on the fly" at the time of corresponding interface page is loaded.
+• Always up-to-date data, as parameters are read from the system on the fly when the corresponding interface page loads.
 
 • Depending on the model and generation of the controller (**currently supported all wired generations of VRC700 and VRC720**), the program supports up to 9 circuits and up to 9 zones, plus management of the time windows, desired temperatures and special operating modes.
 
@@ -25,7 +25,7 @@
 
 • Display and explanation of the status and error codes for supported families of the heat generators with ebus interface (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
 
-• Support for the cascade of heat generators (for heat generators in cascade the following parameters are available: status code, temperature of the supply and return lines, error code. Sending notification in case of heat generators failure).
+• Heat generators cascade support (for heat generators in cascade the following parameters are available: status code, temperature of the supply and return lines, error code. Sending notification in case of heat generators failure).
 
 • Display of user-selected system parameters (up to 10 parameters).
 
@@ -33,35 +33,35 @@
 
 • Multiple user accounts with several permission levels: read only, normal user, specialist.
 
-• Saving and restoration of the program settings through the configuration file.
+• Saving and restoring program settings via a configuration file.
 
-• Built-in L2TP/IPsec VPN client for remote access to the program's web interface.
+• Built-in L2TP/IPsec (PSK) VPN client for remote access to the program's web interface.
 
-• The ability to change all available settings of the controller and heat generator (experimental function for experienced users).
+• Ability to change all available settings of the controller and heat generator (experimental function for experienced users).
 
-• Export of the available controller settings into TXT file.
+• Export of available controller settings to a TXT file.
 
-• Automatic change of the heat curve for selected heating circuit(s) depending on the outdoor temperature (experimental function for experienced users).
+• Automatic adjustment of the heat curve for selected heating circuits based on outdoor temperature (experimental function for experienced users).
 
-• Automatic date and time correction of the controller using internet-syncronized clock in the mini-pc.
+• Automatic date/time correction of the controller clock using an internet-synchronized clock in the Webcontrol mini-PC.
 
-• Ability to control system behaviour using external contact (requires a special USB device). Currently only one function implemented for VRC700 controller.
+• Ability to control system behavior using an external contact (requires a special USB GPIO device). Currently only one function is implemented for the VRC700 controller.
 
-• Supports both wired (Ethernet) and WiFi connection.
+• Supports both wired (Ethernet) and Wi-Fi connections.
 
-• Implementation in the form of a lightweight web interface allows access from any device with a web browser (phone, tablet, PC, even smart-watch).
+• Lightweight web interface accessible from any device with a web browser (phone, tablet, PC, or even a smartwatch).
 
-• Program update via Internet or via downloadable zip package.
+• Program updates via the Internet or via downloadable ZIP package.
 
 ## Drawbacks
 • Limited number of supported controllers (VRC700, VRC720). *Other controllers (for example, VRT380) could be added if significant user demand is shown.* No support for systems where controllers are not installed.
 
 • Focus on heating. **Currently** no interface pages for managing cooling / ventilation (some parameters, however, could be set using direct set mode). *Could be added if user interest is shown.*
 
-• No protection for Web interface. System should be used only in controlled enviroment (LAN) with external access only via VPN.
+• No protection for Web interface. The system should be used only in controlled enviroment (LAN) with external access only via VPN.
 
-• No fuel consumption / energy statistics data interface pages. *Could be added in case of user demand.*
+• No fuel consumption / energy statistics data interface pages. *Could be added if requested.*
 
-• No integration with smart home systems. Acts as a pure standalone solution. 
+• No integration with smart-home systems. Acts as a pure standalone solution. 
 
 • No virtualization support. Should be run on a real hardware only. 
