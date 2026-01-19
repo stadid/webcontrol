@@ -5,7 +5,7 @@ CHANGELOG
 
 Notes:
 (IMAGE) – the system install-image
-(CODE)  – system update available as a ZIP file or via the program built-in internet update feature 
+(CODE)  – program update in the form of the downloadable ZIP file or via the program built-in internet update feature 
 
 + functionality added
 * functionality changed
@@ -300,4 +300,5 @@ Version 2026.01.19 (CODE)
 
 [!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
 [!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
 
