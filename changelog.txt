@@ -14,7 +14,7 @@ Notes:
 
 Version 2023.08.08 (IMAGE)
 =========================
-First publicly available release.
+First public release.
 
 
 
@@ -300,5 +300,6 @@ Version 2026.01.19 (CODE)
 
 [!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
 [!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
 
 
