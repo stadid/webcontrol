@@ -21,7 +21,7 @@
 
 • Easy setup: simply select which Zones and Circuits you want to display. 
 
-• Supports any Vaillant system configuration **with supported controller (currently supported all wired generations of VRC700 and VRC720)**, as all system management is performed through the controller (the same way as it's done by manufacturer).
+• Supports any Vaillant system **with supported controller (currently supported all wired generations of VRC700 and VRC720)**. System management is performed through the controller (the same way as it's done by manufacturer).
 
 • Management of the time windows, desired temperatures and special operating modes of the controller.
 
@@ -39,7 +39,7 @@
 
 • Allows changing all available (in ebusd configuration) settings for the controller and heat generator (experimental function for advanced users).
 
-• Export of available controller settings to a TXT file.
+• Controller settings export into a TXT file.
 
 • Automatic adjustment of the heat curve for selected heating circuits based on outdoor temperature (experimental function for experienced users).
 
