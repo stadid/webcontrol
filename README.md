@@ -21,7 +21,7 @@
 
 • Easy setup: simply select which Zones and Circuits you want to display. 
 
-• Supports any Vaillant system **with supported controller (currently supported all wired generations of VRC700 and VRC720)**. System management is performed via the controller (the same way as it's done by manufacturer).
+• Compatible with any Vaillant system **with supported controller (currently supported all wired generations of VRC700 and VRC720)**. System management is performed via the controller (the same way as it's done by manufacturer).
 
 • Management of the time windows, desired temperatures and special operating modes of the controller.
 
