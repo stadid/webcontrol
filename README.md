@@ -11,25 +11,25 @@
 ## Features
 • Standalone solution, no external services required.
 
-• No built in trackers / telemetry.
+• No built-in trackers / telemetry.
 
-• Intuitive lightweight web interface (to the author’s taste) with detailed explanations for settings and parameters changed.
+• Intuitive lightweight web interface with descriptive text, helping users understand the changes they are making.
+
+• Features the self-hosted Telegram bot for sending error notifications, current status reports, and a remote system management.
 
 • Always up-to-date data, as parameters are read from the system on the fly when the corresponding interface page loads.
 
 • Easy setup: simply select which Zones and Circuits you want to display. 
 
-• Depending on the model and generation of the controller (**currently supported all wired generations of VRC700 and VRC720**), the program supports up to 9 circuits and up to 9 zones, plus management of the time windows, desired temperatures and special operating modes.
+• Supports any Vaillant system configuration **with supported controller (currently supported all wired generations of VRC700 and VRC720)**, as all system management is performed through the controller (the same way as it's done by manufacturer).
 
-• Any Vaillant system configuration **with supported controller** will work, no matter what additional equipment is used as all management is performed through the controller (the same way as it's done by manufacturer).
+• Management of the time windows, desired temperatures and special operating modes of the controller.
 
-• Display and explanation of the status and error codes for supported families of the heat generators with ebus interface (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
+• Display of the status and error codes for the heat generator(s) installed in the system (detailed codes explanation available for the supported families of the heat generators: turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
 
 • Heat generators cascade support (for heat generators in cascade the following parameters are available: status code, temperature of the supply and return lines, error code. Sending notification in case of heat generators failure).
 
-• customizable display of up to 10 user-selected system parameters.
-
-• Features the self-hosted Telegram bot for sending error notifications, current status reports, and a remote system management.
+• Customizable display of up to 10 user-selected system parameters.
 
 • Multiple user accounts with several permission levels: read only, normal user, specialist.
 
