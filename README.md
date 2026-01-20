@@ -13,7 +13,7 @@
 
 • No built-in trackers / telemetry.
 
-• Intuitive lightweight web interface with descriptive text, helping users understand the changes they are making.
+• Intuitive lightweight web interface accessible from any device with a web browser (phone, tablet, PC, or even a smartwatch). Most interface controls include descriptive text, helping users understand the changes they are making.
 
 • Features the self-hosted Telegram bot for sending error notifications, current status reports, and a remote system management.
 
@@ -48,8 +48,6 @@
 • Control the system via an external contact (requires a special USB GPIO device). Currently only one function is implemented for the VRC700 controller.
 
 • Supports both wired (Ethernet) and Wi-Fi connections.
-
-• Lightweight web interface accessible from any device with a web browser (phone, tablet, PC, or even a smartwatch).
 
 • Program updates via the Internet or via downloadable ZIP package.
 
