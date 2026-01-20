@@ -45,7 +45,7 @@
 
 • Automatic date/time correction of the controller clock using an internet-synchronized clock in the Webcontrol mini-PC.
 
-• Control the system via an external contact (requires a special USB GPIO device). Currently only one function is implemented for the VRC700 controller.
+• System control via an external contact (requires a USB GPIO device). Currently one function is implemented for the VRC700 controller.
 
 • Supports both wired (Ethernet) and Wi-Fi connections.
 
