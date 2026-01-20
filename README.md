@@ -17,11 +17,11 @@
 
 • Features the self-hosted Telegram bot for sending error notifications, current status reports, and a remote system management.
 
-• Always up-to-date data, as parameters are read from the system on the fly when the corresponding interface page loads.
+• Always actual readings of the system settings and parameters - they are read from the system on the fly when the corresponding interface page loads.
 
 • Easy setup: simply select which Zones and Circuits you want to display. 
 
-• Supports any Vaillant system **with supported controller (currently supported all wired generations of VRC700 and VRC720)**. System management is performed through the controller (the same way as it's done by manufacturer).
+• Supports any Vaillant system **with supported controller (currently supported all wired generations of VRC700 and VRC720)**. System management is performed via the controller (the same way as it's done by manufacturer).
 
 • Management of the time windows, desired temperatures and special operating modes of the controller.
 
