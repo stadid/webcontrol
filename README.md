@@ -23,7 +23,7 @@
 
 • Management of the time windows, desired temperatures and special operating modes of the controller.
 
-• Display of the status and error codes for the heat generator(s) installed in the system (detailed codes explanation available for the supported families of the heat generators: turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT).
+• Display of the status and error codes for the heat generator(s) installed in the system. Detailed codes explanation available for the supported families of the heat generators: turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT.
 
 • Heat generators cascade support (for heat generators in cascade the following parameters are available: status code, temperature of the supply and return lines, error code. Sending notification in case of heat generators failure).
 
