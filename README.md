@@ -15,7 +15,7 @@
 
 • Intuitive lightweight web interface accessible from any device with a web browser (phone, tablet, PC, or even a smartwatch). Most interface controls include descriptive text, helping users understand the changes they are making.
 
-• Features the self-hosted Telegram bot for sending error notifications, current status reports, and a remote system management.
+• Features the self-hosted Telegram bot for sending error notifications, current system status reports, and a remote system management.
 
 • Always actual readings of the system settings and parameters - they are read from the system on the fly when the corresponding interface page loads.
 
