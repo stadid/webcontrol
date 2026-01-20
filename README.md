@@ -9,9 +9,7 @@
 
 ![What is required to run Webcontrol](https://github.com/stadid/webcontrol/blob/main/webcontrol.jpg?raw=true)
 ## Features
-• Standalone solution, no external services required.
-
-• No built-in trackers / telemetry.
+• Standalone solution, no external services required. No trackers / telemetry.
 
 • Intuitive lightweight web interface accessible from any device with a web browser (phone, tablet, PC, or even a smartwatch). Most interface controls include descriptive text, helping users understand the changes they are making.
 
