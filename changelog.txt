@@ -302,4 +302,10 @@ Version 2026.01.19 (CODE)
 [!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
 
 
+Version 2026.01.22 (CODE)
+=========================
++ added feature to reboot Mini-PC from the program web-interface (check Settings -> Developer tools)
+* fixed program internet update failure (version check successfull, but update package download fails).
 
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
