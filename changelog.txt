@@ -309,3 +309,11 @@ Version 2026.01.22 (CODE)
 
 [!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
 [!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
+
+Version 2026.01.31 (CODE)
+=========================
+* fixed issue with false temperature readings of the boiler Forward/Return line(s) in case corresponding temperature sensor is not connected or electrical connection to the sensor is broken.
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
