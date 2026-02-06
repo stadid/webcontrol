@@ -317,3 +317,10 @@ Version 2026.01.31 (CODE)
 
 [!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
 [!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
+Version 2026.02.06 (CODE)
+=========================
++ added description of the status and error codes of the Ray Protherm series of heat generators (in the case of using these heat generators with Vaillant controllers)
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
