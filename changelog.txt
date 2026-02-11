@@ -324,3 +324,11 @@ Version 2026.02.06 (CODE)
 
 [!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
 [!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
+
+
+Version 2026.02.10 (CODE)
+=========================
++ added sending of the Telegram notifications when the system pressure is out of the range set by the user.
+
+[!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
+[!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
