@@ -15,6 +15,8 @@
 
 • Features the self-hosted Telegram bot for sending error notifications, current system status reports, and a remote system management.
 
+• Features [NTFY](https://ntfy.sh) service support for sending push notifications on current system errors, system status reports, and a remote system management.
+
 • Always actual readings of the system settings and parameters - they are read from the system on the fly when the corresponding interface page loads.
 
 • Easy setup: simply select which Zones and Circuits you want to display. 
