@@ -339,7 +339,7 @@ Version 2026.02.10 (CODE)
 Version 2026.04.12 (CODE)
 =========================
 
-* improved input data validation in the L2TP/IPsec VPN client configuration dialog.
+* improved input data handling in the L2TP/IPsec VPN client configuration dialog.
 + added sending SMS notifications in case of emergencies (local SMS service provider used).
 + added notifications and system remote control using any available NTFY service (as an alternative to the Telegram bot). See https://ntfy.sh for details. 
 * interface pages updates due to introduction of the new notification methods.
