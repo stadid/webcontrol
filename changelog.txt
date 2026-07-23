@@ -349,7 +349,7 @@ Version 2026.04.12 (CODE)
 Version 2026.07.20 (CODE)
 =========================
 * VRC700 and VRC720: Removed display of the desired temperature for heating zones from the Web interface in case of zone shutdown when the maximum set outdoor temperature is exceeded
-("Max. limit outside temp" parameter for VRC700 and "OT switch-off threshhold" for VRC720).
+("Max. limit outside temp" parameter for VRC700 and "OT switch-off threshold" for VRC720).
 
 [!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
 [!] WARNING! Update intended ONLY for Webcontrol version not lower than 2024.08.15. Installing on earlier versions will break the program.
