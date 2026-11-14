@@ -367,7 +367,7 @@ Version 2026.10.19 (CODE)
 
 Version 2026.11.14 (CODE)
 =========================
-+ VRC700 added maintenance reminder display on the “Status” page, as well as a setting for this reminder, including sending the corresponding notification via NTFY and Telegram.
++ VRC700 added maintenance reminder display on the Webcontrol “Status” page and a setting for this reminder, including sending the corresponding notification via NTFY and Telegram.
 * VRC720 updated EBUSD configuration — HcAutoCoolingEnabled parameter added
 
 [!] WARNING! This version is SETTINGS-COMPATIBLE (db file) with all previous versions EXCEPT 2023.08.08.
