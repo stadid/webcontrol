@@ -56,10 +56,10 @@
 
 • Focus on heating. **Currently** no interface pages for managing cooling / ventilation (some parameters, however, could be set using direct set mode). *Could be added if user interest is shown.*
 
-• No protection for Web interface. The system should be used only in controlled enviroment (LAN) with external access only via VPN.
+• No protection for Web interface. The system should be used only in controlled environment (LAN) with external access only via VPN.
 
 • No fuel consumption / energy statistics data interface pages. *Could be added if requested.*
 
 • No integration with smart-home systems. Acts as a pure standalone solution. 
 
-• No virtualization support. Should be run on a real hardware only. 
+ 
