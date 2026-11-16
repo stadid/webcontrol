@@ -73,7 +73,7 @@
 | Feature / Characteristic | Webcontrol | Ebusd + Home Assistant | myVAILLANT (OEM System) |
 | :--- | :--- | :--- | :--- |
 | **Architecture & Cloud** | **Local (autonomous).** Web server runs on-premises; no external cloud is required. | **Local (autonomous).** Runs on a home server; cloud connectivity is strictly optional. | **Strictly cloud-dependent.** Relies on Vaillant's servers; loses functionality if cloud access is disrupted. |
-| **Client Interface** | Responsive web interface (browser-based) with a utilitarian, engineering-focused design. | Native HA mobile apps (iOS / Android) and fully customizable dashboards. | Native mobile apps (iOS / Android) with a polished, modern consumer design. |
+| **Client Interface** | Responsive web interface (browser-based) with a engineering-focused design. | Native HA mobile apps (iOS / Android) and fully customizable dashboards. | Native mobile apps (iOS / Android) with a polished, modern consumer design. |
 | **Remote Access** | Via personal VPN (WireGuard, OpenVPN, Tailscale) or a dedicated public IP. | Via personal VPN, custom domain (Reverse Proxy), or paid Nabu Casa cloud service. | Out-of-the-box via the manufacturer's cloud infrastructure. |
 | **Notifications & Control** | Two-way Telegram bot, SMS gateways (HTTP APIs, USB modems), Email. | Any messaging platform (Telegram, WhatsApp), Push, SMS (via integrations), voice assistants. | Push notifications within the official mobile app only. |
 | **Service Register Access** | **Full.** Built-in UI for reading and writing installer-level parameters (code `17`) via eBUS. | **Full.** Access to any register via MQTT or CLI, though without a pre-built visual UI. | **Restricted.** Basic end-user settings only (target temperatures, modes, schedules). |
