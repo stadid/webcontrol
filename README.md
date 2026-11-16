@@ -7,6 +7,11 @@
 
 ***
 
+## Want to quickly try out and evaluate Webcontrol?  
+[Webcontrol VM image in the *.ova format for importing and running in any supported virtualization environment available](https://github.com/stadid/webcontrol/releases/tag/v2026.11.14_VM_image)
+
+***
+
 ![What is required to run Webcontrol](https://github.com/stadid/webcontrol/blob/main/webcontrol.jpg?raw=true)
 ## Features
 • Standalone solution, no external services required. No trackers / telemetry.
