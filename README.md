@@ -67,4 +67,25 @@
 
 • No integration with smart-home systems. Acts as a pure standalone solution. 
 
- 
+
+ ### Feature Comparison Table
+
+| Feature / Characteristic | Webcontrol | Ebusd + Home Assistant | myVAILLANT (OEM System) |
+| :--- | :--- | :--- | :--- |
+| **Architecture & Cloud** | **Local (autonomous).** Web server runs on-premises; no external cloud is required. | **Local (autonomous).** Runs on a home server; cloud connectivity is strictly optional. | **Strictly cloud-dependent.** Relies on Vaillant's servers; loses functionality if cloud access is disrupted. |
+| **Client Interface** | Responsive web interface (browser-based) with a utilitarian, engineering-focused design. | Native HA mobile apps (iOS / Android) and fully customizable dashboards. | Native mobile apps (iOS / Android) with a polished, modern consumer design. |
+| **Remote Access** | Via personal VPN (WireGuard, OpenVPN, Tailscale) or a dedicated public IP. | Via personal VPN, custom domain (Reverse Proxy), or paid Nabu Casa cloud service. | Out-of-the-box via the manufacturer's cloud infrastructure. |
+| **Notifications & Control** | Two-way Telegram bot, SMS gateways (HTTP APIs, USB modems), Email. | Any messaging platform (Telegram, WhatsApp), Push, SMS (via integrations), voice assistants. | Push notifications within the official mobile app only. |
+| **Service Register Access** | **Full.** Built-in UI for reading and writing installer-level parameters (code `17`) via eBUS. | **Full.** Access to any register via MQTT or CLI, though without a pre-built visual UI. | **Restricted.** Basic end-user settings only (target temperatures, modes, schedules). |
+| **Dynamic Heating Curve** | **Out-of-the-box.** Automatically adjusts the heating curve slope based on outdoor temperature. | **Achievable.** Requires custom automations written by the user (YAML / Node-RED). | **None.** Supports manual configuration of a static heating curve only. |
+| **VRC Time Synchronization** | **Out-of-the-box.** Automatically restores date and time on the controller after power loss. | **Achievable.** Requires a custom script or automation to broadcast time packets to the eBUS. | **Automatic.** Syncs time via the manufacturer's cloud when online. |
+| **Hardware & Ecosystem Integrations** | "Dry contact" hardware input (USB relay) for external triggers, telemetry export to monitoring platforms. | **Unlimited.** Integrates with Zigbee, Z-Wave, Wi-Fi, Modbus, weather forecasts, and whole-home scenes. | Native support for Apple HomeKit, Amazon Alexa, and Google Home (region-dependent). |
+| **Setup Complexity** | **Medium.** Ready-to-flash OS image ("flash and run") or pre-configured hardware gateway. | **High.** Requires setting up an HA server, MQTT broker, matching CSV/TSP boiler configs, and UI cards. | **Low.** Plug-and-play installation via QR code pairing in the mobile app. |
+| **Cost of Ownership** | Free tier (1 heating circuit, 1 zone) or a one-time fee for a Pro license / pre-built gateway. | **Free** (Open Source); costs limited to your own server hardware and an eBUS adapter (~$30–$60 USD). | One-time purchase of an OEM gateway (VR 920 / VR 921 / myVAILLANT connect) plus optional paid app tiers. |
+
+### Key Takeaways
+
+* **myVAILLANT (OEM System)** is the best choice for homeowners who want a **plug-and-play experience** with a polished mobile app and minimal technical setup. However, it comes at the cost of strict cloud dependency, limited access to advanced installer settings, and the risk of losing remote functionality if the vendor's cloud services experience outages or regional restrictions.
+* **Webcontrol** hits the sweet spot for users seeking **turnkey local reliability and deep boiler control** without building a smart home server from scratch. It runs completely offline, provides out-of-the-box engineering features (such as installer register access, automatic clock sync, and dynamic heating curve adjustments), and offers resilient notifications via Telegram and SMS.
+* **Ebusd + Home Assistant** is the ultimate solution for **DIY enthusiasts and smart home power users**. While it requires significant upfront effort to configure MQTT brokers, register maps, and custom dashboards, it unlocks unlimited automation possibilities by tying your Vaillant heating system into your broader smart home ecosystem.
+
