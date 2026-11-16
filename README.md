@@ -68,7 +68,7 @@
 • No integration with smart-home systems. Acts as a pure standalone solution. 
 
 
- ### Feature Comparison Table
+ ## Feature Comparison Table
 
 | Feature / Characteristic | Webcontrol | Ebusd + Home Assistant | myVAILLANT (OEM System) |
 | :--- | :--- | :--- | :--- |
@@ -83,7 +83,7 @@
 | **Setup Complexity** | **Medium.** Ready-to-flash OS image ("flash and run") or pre-configured hardware gateway. | **High.** Requires setting up an HA server, MQTT broker, matching CSV/TSP boiler configs, and UI cards. | **Low.** Plug-and-play installation via QR code pairing in the mobile app. |
 | **Cost of Ownership** | Free tier (1 heating circuit, 1 zone) or a one-time fee for a Pro license / pre-built gateway. | **Free** (Open Source); costs limited to your own server hardware and an eBUS adapter (~$30–$60 USD). | One-time purchase of an OEM gateway (VR 920 / VR 921 / myVAILLANT connect) plus optional paid app tiers. |
 
-### Key Takeaways
+## Key Takeaways
 
 * **myVAILLANT (OEM System)** is the best choice for homeowners who want a **plug-and-play experience** with a polished mobile app and minimal technical setup. However, it comes at the cost of strict cloud dependency, limited access to advanced installer settings, and the risk of losing remote functionality if the vendor's cloud services experience outages or regional restrictions.
 * **Webcontrol** hits the sweet spot for users seeking **turnkey local reliability and deep boiler control** without building a smart home server from scratch. It runs completely offline, provides out-of-the-box engineering features (such as installer register access, automatic clock sync, and dynamic heating curve adjustments), and offers resilient notifications via Telegram and SMS.
