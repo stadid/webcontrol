@@ -61,7 +61,7 @@
 
 • Focus on heating. **Currently** no interface pages for managing cooling / ventilation (some parameters, however, could be set using direct set mode). *Could be added if user interest is shown.*
 
-• No protection for Web interface. The system should be used only in controlled environment (LAN) with external access only via VPN.
+• No HTTPS encryption for the Web interface. While user authentication is implemented, data is transmitted over plain HTTP. The system should be used only in a controlled environment (LAN) with external access via VPN.
 
 • No fuel consumption / energy statistics data interface pages. *Could be added if requested.*
 
