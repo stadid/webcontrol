@@ -86,6 +86,6 @@
 ## Key Takeaways
 
 * **myVAILLANT (OEM System)** is the best choice for homeowners who want a **plug-and-play experience** with a polished mobile app and minimal technical setup. However, it comes at the cost of strict cloud dependency, limited access to advanced installer settings, and the risk of losing remote functionality if the vendor's cloud services experience outages or regional restrictions.
-* **Webcontrol** hits the sweet spot for users seeking **turnkey local reliability and deep boiler control** without building a smart home server from scratch. It runs completely offline, provides out-of-the-box engineering features (such as installer register access, automatic clock sync, and dynamic heating curve adjustments), and offers resilient notifications via Telegram, NTFY and SMS.
+* **Webcontrol** hits the sweet spot for users seeking **turnkey local reliability and deep boiler control** without building a smart home server from scratch. It runs completely offline, provides out-of-the-box engineering features (such as installer register access, automatic clock sync, and dynamic heating curve adjustments), and offers resilient notifications via Telegram, NTFY, Email and SMS.
 * **Ebusd + Home Assistant** is the ultimate solution for **DIY enthusiasts and smart home power users**. While it requires significant upfront effort to configure MQTT brokers, register maps, and custom dashboards, it unlocks unlimited automation possibilities by tying your Vaillant heating system into your broader smart home ecosystem.
 
