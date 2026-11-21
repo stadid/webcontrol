@@ -70,6 +70,7 @@
 
  ## Feature Comparison Table
 
+
 | Feature / Characteristic | Webcontrol | Ebusd + Home Assistant | myVAILLANT (OEM System) |
 | :--- | :--- | :--- | :--- |
 | **Architecture & Cloud** | **Local (autonomous).** Web server runs on-premises; no external cloud is required. | **Local (autonomous).** Runs on a home server; cloud connectivity is strictly optional. | **Strictly cloud-dependent.** Relies on Vaillant's servers; loses functionality if cloud access is disrupted. |
