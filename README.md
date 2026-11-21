@@ -65,10 +65,9 @@
 
 • No fuel consumption / energy statistics data interface pages. *Could be added if requested.*
 
-• No integration with smart-home systems. Acts as a pure standalone solution. 
+• No integration with smart-home systems. Acts as a pure standalone solution.
 
-
- ## Feature Comparison Table
+## Feature Comparison Table
 
 
 | Feature / Characteristic | Webcontrol | Ebusd + Home Assistant | myVAILLANT (OEM System) |
