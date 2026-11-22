@@ -8,7 +8,9 @@
 ***
 
 ## Want to quickly try out and evaluate Webcontrol?  
-[Webcontrol VM image in the *.ova format for importing and running in any supported virtualization environment is available](https://github.com/stadid/webcontrol/releases/tag/v2026.11.14_VM_image)
+[Webcontrol VM image in the *.ova format for importing and running in any supported virtualization environment is available](https://github.com/stadid/webcontrol/releases/tag/v2026.11.14_VM_image) 
+
+ ℹ️ If you’d like to inspect what’s inside the image, root credentials are included in the archive.
 
 ***
 
