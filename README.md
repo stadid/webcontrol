@@ -6,6 +6,10 @@ Want to learn more about Webcontrol and explore its development history? Check o
 
 ℹ️ To read the news feed in your preferred language, please use your browser's built-in translator or an online translation tool.
 
+***
+
+### Architecture & Transparency Note
+Webcontrol is distributed as a pre-built OS/VM appliance (`ebusd` + Perl web backend). All `ebusd` configuration files and selected web scripts are plain-text and user-auditable, while core controller-logic Perl modules are protected (if we can talk about protection of the Perl code). The system has **no pre-configured external servers, cloud dependencies, or telemetry** — root credentials are included with the VM archive so you can inspect the OS, audit network traffic, and verify everything locally before connecting it to your heating bus.
 
 ***
 
