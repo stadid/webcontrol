@@ -93,7 +93,7 @@ Webcontrol is distributed as a pre-built OS/VM appliance (`ebusd` + Perl web bac
 | **VRC Time Synchronization** | **Out-of-the-box.** Automatically restores date and time on the controller after power loss. | **Achievable.** Requires a custom script or automation to broadcast time packets to the eBUS. | **Automatic.** Syncs time via the manufacturer's cloud when online. |
 | **Hardware & Ecosystem Integrations** | "Dry contact" hardware input (USB GPIO device) for external triggers, telemetry export to monitoring platforms. | **Unlimited.** Integrates with Zigbee, Z-Wave, Wi-Fi, Modbus, weather forecasts, and whole-home scenes. | Native support for Apple HomeKit, Amazon Alexa, and Google Home (region-dependent). |
 | **Setup Complexity** | **Medium.** Ready-to-flash OS image ("flash and run") or pre-configured hardware gateway. | **High.** Requires setting up an HA server, MQTT broker, matching CSV/TSP boiler configs, and UI cards. | **Low.** Plug-and-play installation via QR code pairing in the mobile app. |
-| **Cost of Ownership** | Free tier (1 heating circuit, 1 zone) or a one-time fee for a Pro license / pre-built gateway. | **Free** (Open Source); costs limited to your own server hardware and an eBUS adapter. | One-time purchase of an OEM gateway (VR 920 / VR 921 / myVAILLANT connect) plus optional paid app tiers. |
+| **Cost of Ownership** | Free tier (1 heating circuit, 1 zone) or a one-time fee for a Full license / pre-built gateway. | **Free** (Open Source); costs limited to your own server hardware and an eBUS adapter. | One-time purchase of an OEM gateway (VR 920 / VR 921 / myVAILLANT connect) plus optional paid app tiers. |
 
 ## Key Takeaways
 
