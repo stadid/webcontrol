@@ -2,9 +2,9 @@
 **Complete easy to use self-hosted standalone solution built on top of ebusd to replace Vaillant remote control system (MultiMATIC, SensoAPP,  MyVaillant, etc.)** 
 
   
-Want to learn more about Webcontrol and explore its development history? Check out the [Webcontrol News & Updates](https://stadid.github.io/webcontrol-news/) archive.
+Want to learn more about Webcontrol and explore its development history? Check out the [Webcontrol News & Updates](https://stadid.github.io/webcontrol-news/) archive,  or browse real-world user feedback and discussions from 2023–present in the [Forumhouse community thread](https://www.forumhouse.ru/threads/417757/page-42) where the project originated.
 
-ℹ️ To read the news feed in your preferred language, please use your browser's built-in translator or an online translation tool.
+*ℹ️ Both resources are in Russian — please use your browser's built-in translator or an online translation tool to read them in your preferred language.*
 
 ***
 
@@ -20,7 +20,7 @@ Webcontrol is distributed as a pre-built OS/VM appliance (`ebusd` + Perl web bac
 ## Want to quickly try out and evaluate Webcontrol?  
 [Webcontrol VM image in the *.ova format for importing and running in any supported virtualization environment is available](https://github.com/stadid/webcontrol/releases/tag/v2026.11.14_VM_image) 
 
- ℹ️ If you’d like to inspect what’s inside the image, root credentials are included in the archive.
+ *ℹ️ If you’d like to inspect what’s inside the image, root credentials are included in the archive.*
 
 ***
 
